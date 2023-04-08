@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/charlie-2" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                    <div class="box1nav">
+                <img class="headerimg" src="logo.png">
+                <div class="box2nav">
+               <a class="cls1" href="#">Features</a>
+               <a class="cls2" href="#">Solutions</a>
+               <a class="cls3" href="#">Plans</a>
+               <a class="cls4" href="#">Pricing</a>
+               <a class="cls5" href="#">Resources</a>
+               <a class="login" href="#">Log in</a>
+               <a class="header_btn" href="#">Get Trello for free</a>
+               </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="wave">
+        <div class="headbox1">
+            <h1 class="h1line">Trello brings all your tasks, teammates, and tools together</h1>
+            <p class="plineforh1">Keep everything in the same place-even if your team isn’t.</p>
+              <input type="text" id="Email" name="Email" placeholder="Email">
+            <a style="font-size: 16px;" class="firstmodule_btn" href="#">Sign up - it's free!</a>
+            <a style="display: block;" class="watch_video" href="#">Watch video</a>
+            <a><img class="play_btn" src="play.png"></a>
+        </div>
+        <div class="firstmdl_pic">
+            <img class="firstmdlpic" src="1st.png">
+        </div>
+    </section>
+    <section class="powerhouse">
+        <div class="container_a">
+            <div class="row_a">
+            <p class="trello101">TRELLO 101</p>
+            <h2 class="trellofirsth2">A productivity powerhouse</h2>
+            <p class="trellopara">Simple, flexible, and powerful. All it takes are boards, lists, and cards to get a clear view of who’s doing what and what needs to get done. Learn more in our<a style="display: inline; color: #0647a7;" href="#"> guide for getting started.</a></p>
+            </div>
+        </div>
+        <div class="container_b">
+            <div class="row_b">
+                <div class="elementboxline">
+                    <div id="clickbox1" class="elementbox1">
+                        <a class="clickelmt1" id="box1" href="#">
+                    <h4 class="elmt1h3">Boards</h4>
+                    <p class="elmtpara1">Trello boards keep tasks organized and work moving forward. In a glance, see everything from "things to do" to "aww yeah, we did it!"</p>
+                </a>
+                   </div>
+                   
+                    <div id="clickbox2" class="elementbox2">
+                        <a class="clickelmt2" id="box2" href="#">
+                    <div class="texture2"></div>
+                    
+                    <h4 class="elmt1h3">Lists</h4>
+                    <p class="elmtpara2">The different stages of a task. Start as simple as To Do, Doing or Done-or build a workflow custom fit to your team's needs. There's no wrong way to Trello.</p>
+                </a>
+                
+                   </div>
+                    
+                        <div id="clickbox3" class="elementbox3">
+                            <a class="clickelmt3" id="box3" href="#" alt="">
+                        <div class="texture3"></div>
+                    <h4 class="elmt1h3">Cards</h4>
+                    <p class="elmtpara3">Cards represent tasks and ideas and hold all the information to get the job done. As you make progress, move cards across lists to show their status.</p>
+                    </a>
+
+                </div>
+            </div>
+    
+
+            </div>
+            <div class="container_image">
+                <div class="row_image">
+            <img class="allimg" id="image" src="img1.png" alt="">
+            <script>
+                var box1 = document.getElementById("box1");
+      var box2 = document.getElementById("box2");
+      var box3 = document.getElementById("box3");
+      var image = document.getElementById("image");
+
+      box1.addEventListener("click", function() {
+        image.src = "img1.png";
+      });
+
+      box2.addEventListener("click", function() {
+        image.src = "img2.png";
+      });
+
+      box3.addEventListener("click", function() {
+        image.src = "img3.png";
+      });
+
+      
+
+
+      
+
+              </script>
+              </div>
+              </div>
+              
+        </div>
+        
+    </section>
+    <section class="actions">
+        <div class="container_c">
+            <div class="row_c">
+                <div class="introw_little">
+                    <p class="inaction">TRELLO IN ACTION</p>
+                    <h2 class="inactionheader">Workflows for any project, big or small</h2>
+                </div>
+            </section>
+            <section class="scrollsegment">
+                <div class="wrapper">
+                    <div class="icon"><i id="left" class="fa-solid fa-angle-left"><</i></div>
+                    <div class="boxesheader">
+                    <div class="allboxes" id="box2padd1">
+                        <img class="folder" src="folder.png">
+                        <h3 class="folderh3">Project management</h3>
+                        <p class="folderp">Keep tasks in order, deadlines on track,</p>
+                        <p class="folderp2">and team members aligned with Trello.</p>
+                    </div>
+                    <div class="allboxes" id="box2padd2">
+                        <img class="folder" src="anounce.png">
+                        <h3 class="anounceh3">Meetings</h3>
+                        <p class="anouncep1">Empower your team meetings to be</p>
+                        <p class="anouncep2">more productive, empowering, and</p>
+                        <p class="anouncep3">dare we say-fun.</p>
+                    </div>
+                    <div class="allboxes" id="box2padd3">
+                        <img class="folder" src="leaf.png">
+                        <h3 class="leafh3">Onboarding</h3>
+                        <p class="leafp1">Onboarding to a new company or</p>
+                        <p class="leafp2">project is a snap with Trello's visual</p>
+                        <p class="leafp3">layout of to-do's, resources, and</p>
+                        <p class="leafp4">progress tracking.</p>
+                    </div>
+                    <div class="allboxes" id="box2padd4">
+                        <img class="folder" src="checklist.png">
+                        <h3 class="checklisth3">Task management</h3>
+                        <p class="checklistp1">Use Trello to track, manage, complete,</p>
+                        <p class="checklistp2">and bring tasks together like the pieces</p>
+                        <p class="checklistp3">of a puzzle, and make your team's</p>
+                        <p class="checklistp4">projects a cohesive success every time.</p>
+                    </div>
+                    <div class="allboxes" id="box2padd5">
+                        <img class="folder" src="cloud.svg">
+                        <h3 class="cloudh3">Brainstorming</h3>
+                        <p class="cloudp1">Unleash your team's creativity and</p>
+                        <p class="cloudp2">keep ideas visible, collaborative, and</p>
+                        <p class="cloudp3">actionable.</p>
+                    </div>
+                    <div class="allboxes" id="box2padd6">
+                        <img class="folder" src="book.png">
+                        <h3 class="bookh3">Resource hub</h3>
+                        <p class="bookp1">Save time with a well-designed hub</p>
+                        <p class="bookp2">that helps teams find information</p>
+                        <p class="bookp3">easily and quickly.</p>
+                    </div>
+                </div>
+                    <div class="icon"><i id="right" class="fa-solid fa-angle-left">></i></div>
+                </div>
+                <div class="lineren">
+                    <p class="lineren_p">No need to start from scratch. Jump-start your workflow with a proven playbook designed for different teams. Customize it to make it yours.</p>
+                    <a class="anchorlineren" href="#">Explore all Use Cases</a>
+                </div>
+                  
+         </section>
+         <section class="new_era">
+            <div class="container_s">
+                <div class="row_s">
+                    
+                    <div class="first_layer3">
+                        <img class="narrow_left"  src="Left_background.svg">
+                    <img class="narrow_right"  src="Right_background.svg">
+                    <h2 class="h2ofblue">See work in a whole new way</h2>
+                    <p class="p_blue">View your team’s projects from every angle and bring a fresh perspective to the task at hand.</p>
+                    <a class="anchor_blue" href="#">Discover all Trello views</a>
+
+                    </div>
+                    <div class="whitelayer">
+                            <img class="whitelayer_img" src="workplaces.png">
+                            
+                    </div>
+                    <div class="contentwhite">
+                        <img class="blue_style" src="blue_style.jpg">
+                        <h3 class="contentwhiteh3">HIT DEADLINES EVERY TIME</h3>
+                        <p class="whitelayer_p">From weekly sprints to annual planning, Timeline view keeps all tasks on track. Quickly get a glimpse of what’s coming down the pipeline and identify any gaps that might impede your team’s progress.</p>
+                        <a class="anchorwhitelayerlevel" href="#">Learn more about Timeline view</a>
+
+                    </div>
+                    
+                    <div class="whitelayer2">
+                        <div class="contentwhite2">
+                            <img class="blue_style2" src="little_calender.jpg">
+                            <h3 class="contentwhiteh3_2">STAY ON TOP OF TASKS</h3>
+                            <p class="whitelayer_p_2">Start each day without any surprises. Whether scheduling an editorial calendar or staying on top of to-dos, Calendar view is like a crystal ball giving you a clear vision of what work lies ahead.</p>
+                            <a class="anchorwhitelayerlevel_2" href="#">Learn more about Calendar view</a>
+                        </div>
+                        <img class="whitelayer_img_2" src="calender.png">
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+            
+         </section>
+         
+
+         <section class="powerfulways">
+            <div class="container_m">
+                <div class="row_m">
+                    <p class="power_p">POWERFUL WAYS TO GROW</p>
+                    <h2 class="powerh2">Do more with Trello</h2>
+                    <p class="power_p2">Trello’s intuitive features give any team the ability to quickly set up and customize workflows for just about anything.</p>
+                </div>
+                <div class="boxesnrow">
+                    <div class="boxesn_1">
+                         <img class="mech" style="padding-left: 10px;" src="mech.svg">
+                         <h3 class="integrationsh3">Integrations</h3>
+                         <p class="int_p1">Connect the apps your team already uses into your Trello workflow or add a Power-Up to fine-tune your specific needs.</p>
+                         <a class="anchorfor1" href="#">Browse Integrations</a>
+                    </div>
+                    <div class="boxesn_2">
+                         <img class="spanner" style="padding-left: 10px;" src="spanner.svg">
+                         <h3 class="butlerh3">Butler Automation</h3>
+                         <p class="int_p2">No-code automation is built into every Trello board. Focus on the work that matters most and let the robots do the rest.</p>
+                         <a class="anchorfor2" href="#">Get to know Automation</a>
+                    </div>
+                    <div class="boxesn_3">
+                         <img class="diamond" style="padding-left: 10px;" src="diamond.svg">
+                         <h3 class="enterpriseh3">Trello Enterprise</h3>
+                         <p class="int_p3">The productivity tool teams love, paired with the features and security needed for scale.</p>
+                         <a class="anchorfor3" href="#">Explore Enterprise</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         
+         <section class="scrollsegment2">
+            <div class="wrapper2">
+            
+                <div class="boxesheader2">
+                <div class="allboxes2" id="box2padd12">
+                    <img class="quotts" style="width: 650px; height: 260px;" src="quots.svg">
+                    <p class="pclassoffolder2">[Trello is] great for simplifying complex processes. As a manager, I can chunk [processes] down into bite-sized pieces for my team and then delegate that out, but still keep a bird's-eye view.</p>
+                    <p class="pclassoffolder3">Joey Rosenberg</p>
+                    <p class="pclassoffolder4">Global Leadership Director at Women Who Code</p>
+                    <img class="somewhocode" src="WomenWhoCode_logo.svg">     
+                    <h3 class="highh3">75% of organizations report that Trello delivers value to their business within 30 days.</h3>  
+                   
+                    <a class="readthe" href="#">Read the story</a>
+                    <a class="dddh3" href="#">Trello TechValidate Survey</a>
+                   
+                   
+                </div>
+                <div class="allboxes2" id="box2padd22">
+                    
+                    <h3 class="anounceh32"></h3>
+                    <p class="anouncep12"></p>
+                </div>
+                
+            </div>
+            
+            </div>
+              
+     </section>
+
+     <section class="price_segment">
+        <div class="container_d">
+            <div class="row_d">
+                <div class="rowprice">
+                    <h2 class="priceh2">Trello priced your way</h2>
+                    <p class="pricep">Trusted by millions, Trello powers teams all around the world.</p>
+                    <a style="font-size: 16px;" class="btn-yel" href="#">Compare plans</a>
+                </div>
+                <div class="nextrowofprice">
+                    <div class="vertical_1">
+                      <h3 class="freeh3">FREE</h3>
+                      <small class="smverti" style="display: inline;">$<h3 style="display: inline;" class="h3smt">0</h3>USD</small>
+                      <small class="vertismall2" style="display: block;">Free for your whole team</small>
+                      <p class="vertip" id="linds">For individuals or teams looking to organize any project.</p>
+                      <a style="font-size: 16px;" class="btn-essd1" href="#">Get started</a>
+                    </div>
+                    <div class="vertical_2">
+                        <h3 class="freeh3">STANDARD</h3>
+                        <small class="smverti" style="display: inline;">$<h3 style="display: inline;" class="h3smt">5</h3>USD</small>
+                        <small class="vertismall2" style="display: block;">Per user/month if billed annually ($6 billed monthly)</small>
+                        <p class="vertip">For small teams that need to manage work and scale collaboration.</p>
+                        <a style="font-size: 16px;" class="btn-essd2" href="#">Sign up now</a>
+                        <a class="anchdds1" href="#">Learn more about Standard</a>
+                    </div>
+                    <div class="vertical_3">
+                        <h3 class="freeh3">PREMIUM</h3>
+                      <small class="smverti" style="display: inline;">$<h3 style="display: inline;" class="h3smt">10</h3>USD</small>
+                      <small class="vertismall2" style="display: block;">Per user/month if billed annually ($12.50 billed monthly)</small>
+                      <p class="vertip_1">For teams that need to track and visualize multiple projects in several ways, including boards, timelines, calendars, etc.</p>
+                      <a style="font-size: 16px;" class="btn-essd3" href="#">Try for free</a>
+                      <a class="anchdds1" href="#">Learn more about Premium</a>
+                    </div>
+                    <div class="vertical_4">
+                        <h3 class="freeh3">ENTERPRISE</h3>
+                      <small class="smverti" style="display: inline;">$<h3 style="display: inline;" class="h3smt">17.50</h3>USD</small>
+                      <small class="vertismall2" style="display: block;">Per user/month - billed annually ($210.00 annual price per user)</small>
+                      <p class="vertip_2">For organizations that need to connect work across teams with more security and controls.</p>
+                      <p class="additi" style="padding-left: 10px;">Est. cost for 50 users</p>
+                      <a style="font-size: 16px;" class="btn-essd4" href="#">Contact sales</a>
+                      <a class="anchdds1" href="#">Learn more about Enterprise</a>
+                    </div>
+                    <p class="reysfs">Join over 2,000,000 teams worldwide that are using Trello to get more done.</p>
+                    <img class="payment_services" src="payment-processor.svg">
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <section class="preendof_body">
+        <div class="container_v">
+            <div class="row_v">
+                <img class="operations" src="operations.svg">
+                <img class="marketingss" src="marketing.svg">
+                <h2 class="op_ep">Get started with Trello today</h2>
+                <label for="email2"></label>
+<input type="email" id="email2" name="email2" placeholder="Email">
+<a style="font-size: 16px;" class="btn_signupitsfree" href="#">Sign up - it's free!</a>
+
+                
+            </div>
+        </div>
+     </section>
+
+     <section class="footerline">
+        <div class="container_sd">
+            <div class="row_sd">
+            
+                <div class="divi1">
+                 <img class="atlasian_logo" src="footer_logo.jpg">
+                 <a class="loginanchorforfoot" href="#" style="text-decoration: none;">Log In</a>
+                </div>
+                <a href="#" style="text-decoration: none;">
+                <div class="divi2">
+                    
+                 <h3 class="divih3">About Trello</h3>
+                 <small class="divip1">What's behind the boards.</small>
+                
+                </div></a>
+                <a href="#" style="text-decoration: none;">
+                <div class="divi3">
+                    <h3 class="divih3">Jobs</h3>
+                    <small class="divip1">Learn about open roles on the Trello team.</small>
+                </div></a>
+                <a href="#" style="text-decoration: none;">
+                <div class="divi4">
+                    <h3 class="divih3">Apps</h3>
+                    <small class="divip1">Download the Trello App for your Desktop or Mobile devices.</small>
+                </div></a>
+                <a href="#" style="text-decoration: none;">
+                <div class="divi5">
+                    <h3 class="divih3">Contact us</h3>
+                    <small class="divip1">Need anything? Get in touch and we can help.</small>
+                </div></a>
+            </div>
+            <hr>
+            <img class="worldss" src="lang.svg" style="margin-left: 120px;">
+            <select>
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+                <option value="german">German</option>
+              </select>
+              <small class="pps1"><a href="#" style="text-decoration: none;">Privacy Policy</a></small>
+              <small class="pps2"><a href="#" style="text-decoration: none;">Terms</a></small>
+              <small class="pps3"><a href="#" style="text-decoration: none;">Cookie Settings</a></small>
+              <small class="pps4">Copyright © 2023 Atlassian</small>
+
+              <div class="iconsocial">
+             
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-facebook"></a>
+
+            </div>
+              
+              
+        </div>
+     </section>
+        
+</body>
+</html>
