@@ -698,7 +698,7 @@ input[type=text] {
     background-color: #deebfe;
 }
 .container_s {
-    max-width: 100%;
+    min-width: 1250px;
     height: 950px;
     background: linear-gradient(90deg, #017af6, #00b2dd);
     
